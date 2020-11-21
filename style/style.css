@@ -21,11 +21,27 @@
       color: var(--primary-text-color);
 }
 
-
+a {
+      text-decoration: none;
+}
 ul {
       list-style: none;
 }
-/* logo */
+
+.visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      margin: -1px;
+      border: 0;
+      padding: 0;
+
+      white-space: nowrap;
+      clip-path: inset(100%);
+      clip: rect(0 0 0 0);
+      overflow: hidden;
+}
+/* ================= logo =============================*/
 .logo{
       color:var(--primary-text-color);
 }
@@ -34,27 +50,49 @@ ul {
 }
 
 
-/* Header */
-.site-nav .link {
-      color: var(--primary-text-color);
-}
-.site-nav .link:hover,
-.site-nav .link:focus {
-      color:var(--accent-color);
-}
-.contacts .contacts-link {
-      color: var(--primary-text-color);
-}
+/* Site nav */
 
-.contacts .contacts-link:hover,
-.contacts .contacts-link:focus {
+
+.address-mail,
+.address-tel,
+.site-nav-link {
+      color: var(--primary-text-color);
+
+}
+.site-nav-link:focus,
+.site-nav-link:hover,
+.address-mail:focus,
+.address-mail:hover,
+.address-tel:focus,
+.address-tel:hover {
       color: var(--accent-color);
 }
+.site-nav .site-nav-link.current {
+      color: var(--accent-color);
 
+}
 
 /* Section */
 .section-title {
       color:var(--primary-text-color);
+      text-align: center;
 }
 
-/* Botton */
+
+/* ===================== Hero ===================== */
+
+/* ====================== Botton ================ */
+.post-text {
+      text-indent: 50px;
+}
+
+.menu > li {
+      border: 1px solid tomato;
+}
+
+.social-links a {
+        color: blue;
+        text-decoration: none;
+}
+
+/* =================== Footer =================== */
