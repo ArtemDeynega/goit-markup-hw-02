@@ -19,6 +19,8 @@
       font-size: 20px;
       background-color: var(--primary-white-color);
       color: var(--primary-text-color);
+
+
 }
 
 a {
@@ -44,21 +46,23 @@ ul {
 /* ================= logo =============================*/
 .logo{
       color:var(--primary-text-color);
+      line-height: .838;
 }
 .logo-accent {
       color:var(--accent-color);
 }
 
 
-/* Site nav */
-
+/* =============== Site nav ====================*/
 
 .address-mail,
 .address-tel,
 .site-nav-link {
       color: var(--primary-text-color);
+      line-height: .875;
 
 }
+
 .site-nav-link:focus,
 .site-nav-link:hover,
 .address-mail:focus,
@@ -73,18 +77,48 @@ ul {
 }
 
 /* Section */
-.section-title {
-      color:var(--primary-text-color);
-      text-align: center;
-}
 
 
 /* ===================== Hero ===================== */
 
-/* ====================== Botton ================ */
-.post-text {
-      text-indent: 50px;
+.section-title-hero {
+      text-transform: uppercase;
+      text-align: center;
+      line-height: 60px;
+      letter-spacing: 0.06em
 }
+
+/* ================ Section-Aside =============== */
+.section-aside-subtitle{
+      color: var(--primary-text-color);
+      line-height: .875;
+}
+.section-aside-subtitle-text {
+      color: var(--title-text-color);
+      line-height: 24px;
+}
+
+/* ================ Section-Command ============ */
+
+.section-command-worker {
+      color: var(--primary-text-color);
+      line-height: .842;
+}
+.section-command-specialty {
+      color: var(--title-text-color);
+      line-height: .842;
+      
+}
+
+
+/* =============== Section Title ================== */
+.section-title {
+      color: var(--primary-text-color);
+      text-align: center;
+      line-height: .857;
+}
+
+/* ====================== Botton ================ */
 
 .menu > li {
       border: 1px solid tomato;
@@ -96,3 +130,11 @@ ul {
 }
 
 /* =================== Footer =================== */
+
+.post-title {
+      letter-spacing: 10px;
+}
+
+.post-text {
+      letter-spacing: 5px;
+}
