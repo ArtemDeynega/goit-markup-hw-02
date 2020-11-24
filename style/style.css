@@ -50,6 +50,7 @@ ul {
 /* ================= logo =============================*/
 .logo{
       color:var(--primary-text-color);
+      font-family: Raleway;
       font-size: 26px;
       font-weight: 700;
       font-style: normal;
@@ -120,6 +121,7 @@ ul {
       font-style: normal;
       color: var(--primary-text-color);
       line-height: .875;
+      text-transform: uppercase;
 }
 
 .section-aside-subtitle-text {
@@ -183,7 +185,15 @@ ul {
 
 /* =================== Footer =================== */
 
-
+.addres-geo {
+      color: var(--primary-text-color);
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: 0.03em
+}
 
 /* ================= PORTFOLIO ========== */
 
